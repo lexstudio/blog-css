@@ -130,17 +130,14 @@ nav .profile-link{
     height: 50px;
     
     background: #47cfac;
-    display: grid;
-    align-items: center;
-    
     border: none;
     border-radius: 10px;
     color: white;
-    
-    display: flex;
-    align-content: center;
     cursor: pointer;
-
+    
+    font-weight: 700;
+    font-size: 20px;
+    
 }
 
 
@@ -150,13 +147,6 @@ nav .profile-link{
     height: 55px;
 }
 
-.home-main-button a{
-    font-weight: 700;
-    font-size: 20px;
-    color: white;
-    width: 100%;
-    height: 100%;
-}
 
 
 /**************************************************/
@@ -238,3 +228,61 @@ footer p{
     color: white;
     margin-top: 30px;
 }
+
+
+
+/***************************************************/
+
+.blogpost-img-container{
+    padding: 0 50px 40px;
+    text-align: center;
+}
+
+.blogpost-img-container img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+
+.blogpost-main-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px
+}
+
+.blogpost-main-container article h1{
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
