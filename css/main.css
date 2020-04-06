@@ -278,11 +278,6 @@ footer p{
 }
 
 
-.contact-main-container div div{
-    align-self: center;
-    margin-top: 0px;
-}
-
 
 .contact-main-container div a {
     border-bottom: 1px solid black;
@@ -291,7 +286,7 @@ footer p{
 }
 
 
-.contact-main-container .contact-left, .contact-rigth{
+.contact-main-container .contact-left,  .contact-main-container .contact-rigth{
     text-align: center;
     margin-top: 40px;
 }
@@ -309,6 +304,7 @@ footer p{
 
 .description-profile-container{
     background: #e6e9ed;
+    border-radius: 15px;
     display: flex;
     
     align-items: center;
@@ -317,13 +313,16 @@ footer p{
 .description-profile-container figure {
     width: 100%;
     height: 100%;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .description-profile-container figure img{
-    width: 300px;
+    width: 200px;
     height: 200px;
     object-fit: cover;
+    border-radius: 100px;
+    
 }
 
 .description-profile-text{
